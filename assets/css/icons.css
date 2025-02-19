@@ -1,0 +1,70 @@
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    font-size: 16px;
+    background-color: #ffffff;
+    transition: 0.3s;
+
+}
+
+.icon-arrow-right {
+    mask-image: url(../img/arrow-right.svg);
+    -webkit-mask-image: url(../img/arrow-right.svg);
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.icon-search {
+    mask-image: url(../img/search.svg);
+    -webkit-mask-image: url(../img/search.svg);
+    background-color: #0E0E0E;
+    font-size: 18px;
+}
+
+
+.icon-question {
+    mask-image: url(../img/question.svg);
+    -webkit-mask-image: url(../img/question.svg);
+    font-size: 15px;
+    background: rgba(234, 85, 72, 1);
+
+}
+
+
+.col-blue{
+    background-color: rgba(72, 156, 234, 1);
+}
+.col-pink{
+    background-color: rgba(193, 72, 234, 1);
+}
+.col-yellow{
+    background-color: rgba(234, 177, 72, 1);
+}
+.col-pink-2{
+    background-color: rgba(234, 72, 137, 1);
+}
+
+.col-green{
+    background-color: rgba(112, 212, 81, 1);
+
+}
+.col-blue-2{
+    background-color: rgba(123, 180, 221, 1);
+
+}
+.col-yellow-2{
+    background-color: rgba(210, 217, 20, 1);
+
+}
+.col-pink-3{
+    background-color: rgba(145, 72, 234, 0.6);
+
+}
