@@ -445,7 +445,7 @@ p{
         margin-top: 12px;
     }
     .covers-areas-info p {
-        max-width: 200px;
+        max-width: 230px;
         width: 100%;
         margin: 12px auto 0;
         min-height: 50px;
@@ -612,7 +612,13 @@ p{
     }
 }
 
-
+@media (max-width: 570px){
+    .reasons-right-fon h2{
+        max-width: 340px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
 
 /*============-reasons-right-style-end-==========*/
 
@@ -1035,6 +1041,9 @@ p{
     }
     .steps-network {
         padding: 30px 0 100px;
+    }
+    .neural-network-box:nth-child(4) p {
+        width: 120px;
     }
 }
 
